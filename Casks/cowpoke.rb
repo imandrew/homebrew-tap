@@ -2,7 +2,7 @@
 cask "cowpoke" do
   desc "CLI tool for syncing kubeconfigs from multiple Rancher servers"
   homepage "https://github.com/imandrew/cowpoke"
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "cowpoke" do
 
   on_macos do
     on_intel do
-      url "https://github.com/imandrew/cowpoke/releases/download/v1.0.0/cowpoke_Darwin_x86_64.tar.gz"
-      sha256 "9bf4661168a9079d0804f82ff20f51f37b95a20ec539307188b63bc7c3b66995"
+      url "https://github.com/imandrew/cowpoke/releases/download/v1.0.1/cowpoke_Darwin_x86_64.tar.gz"
+      sha256 "8790dcbf0f92e9e884c72c7964321d98565ace20e89d6623451fcb20d75a725a"
     end
     on_arm do
-      url "https://github.com/imandrew/cowpoke/releases/download/v1.0.0/cowpoke_Darwin_arm64.tar.gz"
-      sha256 "f8da814330c93ac65f9ae41ebeafba72cb34ba14c65d27bb5e9f4ba147cb6601"
+      url "https://github.com/imandrew/cowpoke/releases/download/v1.0.1/cowpoke_Darwin_arm64.tar.gz"
+      sha256 "66ec298b9ca8aaa87638853fd21ffb19261b13958c154008c0cc1436b055104c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/imandrew/cowpoke/releases/download/v1.0.0/cowpoke_Linux_x86_64.tar.gz"
-      sha256 "ca6dcaa4c516b401c7807fbe211dfbe2dbbdad6f531773d82131c74bae6ccc7f"
+      url "https://github.com/imandrew/cowpoke/releases/download/v1.0.1/cowpoke_Linux_x86_64.tar.gz"
+      sha256 "826e34ae3c05c7807d51aeb95f04ca3c254d038533cc6b1defe8dde088de3e5e"
     end
     on_arm do
-      url "https://github.com/imandrew/cowpoke/releases/download/v1.0.0/cowpoke_Linux_arm64.tar.gz"
-      sha256 "fdec3f0453773c4e8c53d57b4afb8402737b1161138c92f57bc5cf44a3f621fc"
+      url "https://github.com/imandrew/cowpoke/releases/download/v1.0.1/cowpoke_Linux_arm64.tar.gz"
+      sha256 "374b9532fd8fc4c0865cbff5a9e6be29b6ef6fae6a6cfe28f44d4363d404e8f6"
     end
   end
 
